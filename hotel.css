@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+div, header, section{
+    border:0px solid black;
+padding: 20px;
+}
+#banner{
+    background-image: url("../moatacademy/images/bg-woman-phone-dog.jpeg");
+    min-height: 800px;
+    background-size:cover;
+text-align: center;
+}
+#companyname{
+    width: 20%;
+    float: left;
+}
+#socialmedia{
+    width: 80%;
+    float:right;
+}
+.clear-both{
+    clear: both;
+}
+#bannertext{
+    border: 0px solid #000;
+    color:white;
+    padding-top:100px;
+}
+#searchform{
+    border:0px solid #000;
+    width:80%;
+    padding: 20px;
+    margin:auto;
+    box-shadow: 6px 8px 15px lightgrey;
+    margin-top: -40px;
+    background-color:burlywood;
+}
+#searchform input{
+    padding: 5px;
+}
+#suggested{
+text-align: center;
+}

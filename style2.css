@@ -1,0 +1,35 @@
+#box{
+    height: 200px;
+    width: 300px;
+    border: 2px solid rgb(255,0,0);
+    border-width: 2px;
+    border-style: dashed;
+    border-right: 3px solid olivedrab;
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: orange;
+}
+#red{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-radius: 50%;
+    background-color: red;
+    border:10px solid grey
+}
+#yellow{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-radius: 50%;
+    background-color:yellow;
+    border:10px solid grey
+}
+#green{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-radius: 50%;
+    background-color: green;
+    border:10px solid grey
+}

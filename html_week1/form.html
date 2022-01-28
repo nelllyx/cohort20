@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Demo</title>
+    </head>
+    <body bgcolor="orange">
+        <form action="" method="">
+            <p>
+                <label for="Fullname">Fullname</label>
+                <input type="text" name="fullname" id="Fullname"/>
+            </p>
+            <p>
+                <label for="mypswd">password</label>
+                <input type="password" name="pswd" id="mypswd"/>
+            </p>
+            <p>
+                Gender<br>
+                <input type="radio" name="gender"id="gender1" value="male"/>
+                <label for="gender1">Male</label>
+                <input type="radio" name="gender"id="gender2" value="female"/>
+                <label for="gender2">Female</label>
+                <input type="radio" name="gender"id="gender3" value="others" checked/>
+                <label for="gender3">others</label>
+            </p>
+            <p>
+                Cities visited<br>
+                <label for="city1">Kano</label>
+                <input type="checkbox" name="city1"id="city1" value="kano"/><br>
+                <label for="city2">Awka</label>
+                <input type="checkbox" name="city2"id="city2" value="Awka"/><br>
+                <label for="city3">Bayelsa</label>
+                <input type="checkbox" name="city3"id="city3" value="Bayelsa"/><br>
+            </p>
+            <p>
+                <label>Upload Profile Photo</label>
+                <input type="file" name="profilephoto"/>
+            </p>
+            <p>
+             <label>Email address</label>
+             <input type="email" name="emailaddress"/>
+            </p>
+             <p>
+                 <label>country</label>
+                 <select name="country">
+                     <option value="">Choose country</option>
+                     <option value="Togo">Togo</option>
+                     <option value="Nigeria">Nigeria</option>
+                     <option value="Mali">Mali</option>
+
+
+                 </select>
+             </p>
+             <p>
+                 <label>Biography</label>
+                 <textarea name="bio" rows="5" cols="25"></textarea>
+             </p>
+                 <input type="submit" name="submit" value="Sign up"/>
+        </form>
+    </body>
+</html>

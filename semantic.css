@@ -1,0 +1,52 @@
+header,footer,nav,section,div{
+    border:1px solid black;
+    padding:20px
+}
+*{
+    box-sizing: border-box;
+}
+#logo{
+    width:25%;
+    float:left;
+}
+#topmenu{
+    width: 75%;
+    float: right;
+}
+.clearboth{
+    clear: both;
+}
+.clearleft{
+    clear: left;
+}
+.clearright{
+    clear: right;
+}
+ul li{
+    display:inline-block;
+    list-style-type:none;
+    margin:10px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none; color:black
+}
+#section{
+    background-image: url("images/")
+}
+#aboutus{
+    width: 65;
+    float: left;
+}
+#sidebar{
+    width: 35%;
+    float:right;   
+}
+#copyright{
+    width: 50%;
+    float:left;
+}
+#develop{
+    width: 50%;
+    float: right;
+}

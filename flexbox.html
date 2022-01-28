@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex demo</title>
+        <style type="text/css">
+*{
+    box-sizing: border-box;
+}
+div, header, footer, nav{
+    border: 1px solid #000;
+    padding: 20px;
+}
+#topmenu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#mainmenu{
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+}
+#logo{
+    width:30%;
+}
+#mainmenu li{
+    display:inline-block;
+    padding: 10px;
+}
+#mainmenu a{
+text-decoration: none;
+}
+.myimage{
+    width:32px;
+    height:32px;
+}
+#slidertext{
+    display: flex;
+    height:400px;
+    flex-direction: row;
+    align-items: center;
+}
+#slider,#sometext{
+    height: 200px;
+    width: 50%;
+    align-self: center;
+}
+        </style>
+    </head>
+    <body>
+<header>
+    <div id="topmenu">
+        <div>Logo</div>
+        <nav id="mainmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Who are we</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div>
+                <img src="images/IMG_6780.JPG" alt="facebook" class="myimage"/>
+                <img src="images/IMG_6781.PNG" alt="twitter" class="myimage"/>
+            </div>
+        </nav>
+    </div>
+</header>
+<section id="slidertext">
+    <div id="slider">slider</div>
+    <div id="sometext">text</div>
+</section>
+    </body>
+</html>
